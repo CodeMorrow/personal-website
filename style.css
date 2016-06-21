@@ -12,10 +12,19 @@ body {
     
 }
 
-img {
+p {
+    font-family: Arial;
+}
+
+#me {
     width: 100px;
     border: 2px solid black;
     border-radius: 50%;
+}
+
+#newspaper {
+    width: 300px;
+    border: 2px solid black;
 }
 
 h1 {
@@ -75,8 +84,6 @@ div.footlink:hover {
     border-style:solid;
     border-width:2px;
     border-radius:5px;
-    margin:auto;
-    display:inline-block;
     text-shadow: 1px 1px 2px lightgray;
 	
 }
