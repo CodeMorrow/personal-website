@@ -6,10 +6,21 @@
 	</head>
 
 	<nav>
-		<h2><a href="http://CodeMorrow.omahacodeschool.com/index.html">Home</a></h2>
-		<h2><a href="http://CodeMorrow.omahacodeschool.com">Goals</a></h2>
-		<h2><a href="http://CodeMorrow.omahacodeschool.com">About Me</a></h2>
-		<h2><a href="http://CodeMorrow.omahacodeschool.com/articles.html">Articles</a></h2>
+	<!-- Use this site for live web http://CodeMorrow.omahacodeschool.com -->
+		<ul>
+			<li<?php if ($thisPage=="Home") 
+				echo " id=\"currentpage\""; ?>>
+					<a href="index.php">Home</a></li>
+			<li<?php if ($thisPage=="Goals") 
+				echo " id=\"currentpage\""; ?>>
+					<a href="goals.php">Goals</a></li>
+			<li<?php if ($thisPage=="About Me") 
+				echo " id=\"currentpage\""; ?>>
+					<a href="about_me.php">About Me</a></li>
+			<li<?php if ($thisPage=="Articles") 
+				echo " id=\"currentpage\""; ?>>
+					<a href="articles.php">Articles</a></li>
+		</ul>
 	</nav>
 
 	<body>
