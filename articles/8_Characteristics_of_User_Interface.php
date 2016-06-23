@@ -5,25 +5,14 @@
 		<title>Articles</title>
 	</head>
 
-	<nav>
-	<!-- Use this site for live web http://CodeMorrow.omahacodeschool.com -->
-		<ul>
-			<li<?php if ($thisPage=="Home") 
-				echo " id=\"currentpage\""; ?>>
-					<a href="index.php">Home</a></li>
-			<li<?php if ($thisPage=="Goals") 
-				echo " id=\"currentpage\""; ?>>
-					<a href="goals.php">Goals</a></li>
-			<li<?php if ($thisPage=="About Me") 
-				echo " id=\"currentpage\""; ?>>
-					<a href="about_me.php">About Me</a></li>
-			<li<?php if ($thisPage=="Articles") 
-				echo " id=\"currentpage\""; ?>>
-					<a href="articles.php">Articles</a></li>
-		</ul>
-	</nav>
+	<?php include 'header.php'; ?>
+	
+	<div class = "navbar">
+		<?php include 'nav.php'; ?>
+	</div>
 
 	<body>
+
 		<h1>8 Characteristics Of Successful User Interfaces</h1>
 			<img id= "eight" src="images/8.jpg"/ width=200px>
 				<p>User interface design can be a difficult process. Trying to predict how a person will respond to your website or app can be almost impossible. One can try to be simplistic and make buttons and links obvious to find, while others try to be creative and bring uniqueness to their design. While both have their advantages, many issues can arise from each tactic. With the simplistic approach the user might find the website dull and unattractive. While the unique design might bring usability and functionality issues to the table. There might not be a perfectly correct user interface, these 8 characteristics are great to consider while designing a interface.</p>
@@ -48,18 +37,6 @@
 
 				<p>It can be troubling trying to strike balance between these 8 characteristics but as long as you try to touch on all 8 your app’s user interface will be much more enjoyable. </p>
 	</body>
-
-	<footer><!--Link to My Facebook Page -->    
-		<div id="facebook" class="footlink">
-		    <a class="social_media" href="https://www.facebook.com/JMorrow16/" target="_blank">Find me on Facebook!</a>
-		</div>
-		
-		<!--Link to My Twitter Page -->
-		<div id="twitter" class="footlink">
-		    <a class="social_media" href="https://twitter.com/Code_Morrow" target="_blank">Find me on Twitter!</a>
-		
-		<!--Link to My Github Page -->
-		<div id="github" class="footlink">
-		    <a class="social_media" href="https://github.com/CodeMorrow" target="_blank">Find me on Github!</a>
-    </footer>
+	
+	<footer><?php include 'footer.php'; ?></footer>
 </html>
