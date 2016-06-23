@@ -12,5 +12,14 @@
 		<!--Link to My Github Page -->
 		<div id="github" class="footlink">
 		    <a class="social_media" href="https://github.com/CodeMorrow" target="_blank">Find me on Github!</a>
+
+		<!--Link to My LinkedIn Page -->
+		<div id="linkedin" class="footlink">
+		    <a class="social_media" href="https://www.linkedin.com/in/john-morrow-758545111" target="_blank">Find me on LinkedIn!</a>
+
+		<!--Link to E-mail me -->
+		<div id="Email" class="footlink">
+			<a href="mailto:codemorrow@yahoo.com?Subject=I%20checked%20out%20your%20website%20and%20wanted%20to%20reach%20out" target="_top">Drop me an E-mail!</a>
+
     </footer>
 </html>    
