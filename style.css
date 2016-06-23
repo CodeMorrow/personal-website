@@ -7,39 +7,44 @@ html, body{
 header {
 	background-color: blue;
 	display: flex;
-	flex-flow: row && nowrap;
+	flex-flow: column;
 	justify-content: center;
-	align-items: flex-start;
+	align-items: center;
+	height: 125px;
 
 }
+h1 {
+	font-size: 48px;
+}
 
-nav {
+.tabs {
 	background-color: red;
 	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	width: 150px;
-	-ms-flex: 0 150px;
-	-webkit-box-flex:  0;
-	-moz-box-flex:  0;
-	-ms-box-flex:  0;
-	box-flex:  0;  
+	border-bottom: 1px solid #D7DBDD;
 }
 
-	
+.tab {
+	background-color: red;
+	cursor: pointer;
+    padding: 5px 30px;
+    color: #16A2D7;
+    font-size: 12px;
+    border-bottom: 2px solid transparent;
+}
+
+.tab.is-tab-selected {
+    border-bottom-color: #4EBBE4;
+ }
+
+#currentpage {
+	font-weight: bold;
+}	
 
 }
 
-body{
+body {
 	background-color: green;
-	display: flex;
-	flex-direction: column;
-	-ms-flex: 1;
-	-webkit-box-flex: 1;
-	-moz-box-flex: 1;
-	-ms-box-flex: 1;
-	box-flex: 1;  
-	
+	display: flex; 
 }
 
 footer {
