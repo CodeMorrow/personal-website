@@ -7,16 +7,15 @@
 		echo "$thisPage";?></title>
 	</head>
 	
-	<?php include 'includes/header.php'; ?>
+	<?php include 'includes/header.php';?>
 	
 	<div class = "navbar">
-		<?php include 'includes/nav.php'; ?>
+		<?php include 'includes/nav.php';?>
 	</div>
 	
 	<body>
-		<img id="me" src="images/John.jpg"/>
+		<img id="me" src="images/John.jpg">
 	</body>
 
-	<?php include 'includes/footer.php'; ?>
-
+	<?php include 'includes/footer.php';?>
 </html>
