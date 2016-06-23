@@ -1,8 +1,10 @@
 <!DOCTYPE html>
+<?php $thisPage = "8 Characteristics Of Successful User Interfaces"; ?>
 <html>
 	<head>
 		<link type="text/css" rel="stylesheet" href="style.css"/>
-		<title>Articles</title>
+		<title><?php if ($thisPage!=="")
+		echo "$thisPage";?></title>
 	</head>
 
 	<?php include 'header.php'; ?>
@@ -14,7 +16,7 @@
 	<body>
 
 		<h1>8 Characteristics Of Successful User Interfaces</h1>
-			<img id= "eight" src="images/8.jpg"/ width=200px>
+			<img id= "eight" src="images/8.jpg" width=150px>
 				<p>User interface design can be a difficult process. Trying to predict how a person will respond to your website or app can be almost impossible. One can try to be simplistic and make buttons and links obvious to find, while others try to be creative and bring uniqueness to their design. While both have their advantages, many issues can arise from each tactic. With the simplistic approach the user might find the website dull and unattractive. While the unique design might bring usability and functionality issues to the table. There might not be a perfectly correct user interface, these 8 characteristics are great to consider while designing a interface.</p>
 
 				<p>8 characteristics to a good user interface are Clear, Concise, Familiar, Responsive, Consistent, Attractive, Efficient, and Forgiving.</p>

@@ -1,8 +1,10 @@
 <!DOCTYPE html>
+<?php $thisPage = "Home - My Website"; ?>
 <html>
 	<head>
 		<link type="text/css" rel="stylesheet" href="style.css"/>
-		<title>Home - My Website</title>
+		<title><?php if ($thisPage!=="")
+		echo "$thisPage";?></title>
 	</head>
 	
 	<?php include 'includes/header.php'; ?>
