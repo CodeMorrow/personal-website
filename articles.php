@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <?php $thisPage = "Articles";?>
 <html>
-	<head>
-		<link type="text/css" rel="stylesheet" href="style.css"/>
-		<title><?php if ($thisPage!=="")
-		echo "$thisPage";?></title>
-	</head>
+
+<head>
+	<link type="text/css" rel="stylesheet" href="style.css"/>
+	<title><?php if ($thisPage!=="")
+	echo "$thisPage";?></title>
+</head>
+	
+<body>
 	
 	<?php include 'includes/header.php'; ?>
 	
-		<?php include 'includes/nav.php'; ?>
+	<?php include 'includes/nav.php'; ?>
 	
-	<body>
-	
+	<div class ="main">
 		<h3>Check out these articles worth a read!</h3>
 			<img id= "newspaper" src="images/newspaper.jpg"/ width=250px>
 		<ul>
@@ -22,8 +24,9 @@
 
 			<li></li>
 		</ul>
+	</div>
 
-	</body>
+</body>
 
 	<?php include 'includes/footer.php'; ?>
 </html>
