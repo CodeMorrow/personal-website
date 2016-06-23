@@ -4,17 +4,14 @@
 	
 <head>
 	<link type="text/css" rel="stylesheet" href="style.css"/>
+	
 	<title><?php if ($thisPage!=="")
 	echo "$thisPage";?></title>
 </head>
 
-
+<body>
 
 	<?php include 'includes/header.php'; ?>
-	
-	
-
-<body>
 
 	<?php include 'includes/nav.php'; ?>
 

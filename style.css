@@ -5,26 +5,25 @@ html, body{
 }
 
 header {
-	background-color: blue;
+	background-color: #003399;
 	display: flex;
-	flex-flow: column;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	height: 125px;
+	color: #b3b3b3;
 
 }
 h1 {
-	font-size: 48px;
+	font-size: 32px;
 }
 
 .tabs {
-	background-color: red;
 	display: flex;
+	justify-content: center;
 	border-bottom: 1px solid #D7DBDD;
 }
 
 .tab {
-	background-color: red;
 	cursor: pointer;
     padding: 5px 30px;
     color: #16A2D7;
@@ -39,8 +38,6 @@ h1 {
 #currentpage {
 	font-weight: bold;
 }	
-
-}
 
 body {
 	background-color: green;

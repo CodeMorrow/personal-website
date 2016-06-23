@@ -12,9 +12,7 @@
 
 	<?php include 'includes/header.php'; ?>
 	
-	<div class = "navbar">
-		<?php include 'includes/nav.php'; ?>
-	</div>
+	<?php include 'includes/nav.php'; ?>
 	
 		<iframe src="//giphy.com/embed/NeWB0kkFIvZTi?html5=true" width="480" height="278" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 </body>

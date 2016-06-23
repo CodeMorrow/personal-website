@@ -12,10 +12,15 @@
 
 	<?php include 'includes/header.php';?>
 	
-	<div class = "navbar">
-		<?php include 'includes/nav.php';?>
-	</div>
 	
+	<?php include 'includes/nav.php';?>
+
+	<form>
+		<p>Please enter your name here</p>
+		<input type = "name" name = "name" placeholder="Name">
+		<input type = "submit">
+	</form>
+<br>
 	
 		<img id="me" src="images/John.jpg">
 </body>
