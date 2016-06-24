@@ -22,7 +22,7 @@
 	</form>
 <br>
 	
-		<img id="me" src="images/John.jpg">
+		<img id="me" src="images/John.jpg" width="250px">
 </body>
 
 	<?php include 'includes/footer.php';?>

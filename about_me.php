@@ -15,7 +15,7 @@
 
 	<?php include 'includes/nav.php'; ?>
 
-		<img id="me" src="images/John.jpg">
+		<img id="me" src="images/John.jpg" width="250px">
 			
 		<p>I live in Omaha, NE. I took it upon myself to learn the basics of coding languages (HTML, CSS, JavaScript). I am currently attending Omaha Code School. I have held former jobs in all sectrums including, Cook, Server, Bartender, Welding Inspector, and Youth Football/Basketball/Track Coach.</p>
 

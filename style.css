@@ -1,8 +1,4 @@
-html, body{
-	height: 100%;
-	padding: 0;
-	margin: 0;
-}
+
 
 header {
 	background-color: #003399;
@@ -11,6 +7,7 @@ header {
 	justify-content: center;
 	align-items: center;
 	color: #b3b3b3;
+	order: -2;
 
 }
 h1 {
@@ -21,6 +18,7 @@ h1 {
 	display: flex;
 	justify-content: center;
 	border-bottom: 1px solid #D7DBDD;
+	order:-1;
 }
 
 .tab {
@@ -40,9 +38,15 @@ h1 {
 }	
 
 body {
-	background-color: green;
+	background-color: lightgray;
 	display: flex; 
+	order:1;
+	flex-direction: column;
 }
+
+img { 
+	size: 200px;
+ }
 
 footer {
 	background-color: yellow;
@@ -51,5 +55,6 @@ footer {
 	flex-wrap: nowrap;
 	justify-content: space-around;
 	align-items: flex-end;
+	order:2;
 
 }
