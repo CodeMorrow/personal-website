@@ -1,4 +1,7 @@
 <!DOCTYPE html>	
+<html>
+<head><title>Footer</title></head>
+<body>
 	<footer>
 		<!--Link to My Facebook Page -->    
 		<div id="facebook" class="footlink">
@@ -26,4 +29,5 @@
 		</div>
 		
     </footer>
+  </body>
 </html>    

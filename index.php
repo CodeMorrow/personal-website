@@ -1,9 +1,10 @@
-<!DOCTYPE html>
-<?php $thisPage = "Home - My Website"; ?>
+<!DOCTYPE html><?php $thisPage = "Home - My Website"; ?>
 <html>
+<?php $thisPage = "Home - My Website"; ?>
 
 <head>
 	<link type="text/css" rel="stylesheet" href="style.css"/>
+	<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
 	<title><?php if ($thisPage!=="")
 	echo "$thisPage";?></title>
 </head>

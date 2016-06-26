@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+<html>
+<head><title>Navigation</title></head>
+<body>
 
 	<div class="tabs">
 	<!-- Use this site for live web http://CodeMorrow.omahacodeschool.com -->
@@ -26,5 +29,5 @@
 					<a href="http://CodeMorrow.omahacodeschool.com/about_me.php">About Me</a>
 		</div>			
 	</div>
-	
+</body>	
 </html>
