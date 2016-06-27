@@ -10,12 +10,10 @@
 		<img id="rps" src="images/rps.png" alt="Rock Paper Scissor Diagram" width="250">
 			<br>
 			
-			<form action="check_competition.php">
-				<input type="radio" name="verses" value="friend">I have a friend
+			<form>
+				<input type="radio" name="verses" value="friend" onclick="document.location.href='twoPlayers.php'">I have a friend
 			<br>
-				<input type="radio" name="verses" value="computer">I am alone....forever :(
-			<br>
-				<input type="submit" name="Submit">
+				<input type="radio" name="verses" value="computer" onclick="document.location.href='onePlayer.php'">I am alone....forever :(
 			</form>
 
 	</div>
