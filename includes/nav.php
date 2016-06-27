@@ -5,28 +5,28 @@
 
 	<div class="tabs">
 	<!-- Use this site for live web http://CodeMorrow.omahacodeschool.com -->
-		<div class="tab is_tab_selected">
-			<?php if ($thisPage=="Home - My Website") 
-				echo "*"; ?>
-					<a href="http://CodeMorrow.omahacodeschool.com/index.php">Home</a>
+		<div class="tab" class="is_tab_selected">
+			<p<?php if ($thisPage=="Home - My Website") 
+				echo "class=\"currentpage\">"; ?>>
+					<a href="http://CodeMorrow.omahacodeschool.com/index.php">Home</a></p>
 		</div>
 
 		<div class="tab">
-			<?php if ($thisPage=="Articles") 
-				echo "*"; ?>
-					<a href="http://CodeMorrow.omahacodeschool.com/articles.php">Articles</a>
+			<p<?php if ($thisPage=="Articles")
+				echo "class=\"currentpage\">"; ?>>
+					<a href="http://CodeMorrow.omahacodeschool.com/articles.php">Articles</a></p>
 		</div>
 
 		<div class="tab">
-			<?php if ($thisPage=="Goals") 
-				echo "*"; ?>
-					<a href="http://CodeMorrow.omahacodeschool.com/goals.php">Goals</a>
+			<p<?php if ($thisPage=="Goals") 
+				echo "class=\"currentpage\">"; ?>>
+					<a href="http://CodeMorrow.omahacodeschool.com/goals.php">Goals</a></p>
 		</div>
 
 		<div class="tab">					
-			<?php if ($thisPage=="About Me") 
-				echo "*"; ?>
-					<a href="http://CodeMorrow.omahacodeschool.com/about_me.php">About Me</a>
+			<p<?php if ($thisPage=="About Me") 
+				echo "class=\"currentpage\">"; ?>>
+					<a href="http://CodeMorrow.omahacodeschool.com/about_me.php">About Me</a></p>
 		</div>			
 	</div>
 </body>	

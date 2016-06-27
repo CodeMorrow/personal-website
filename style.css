@@ -25,15 +25,15 @@ h1 {
 	cursor: pointer;
     padding: 5px 30px;
     color: #16A2D7;
-    font-size: 12px;
-    border-bottom: 2px solid transparent;
+    font-size: 18px;
 }
 
 .tab.is-tab-selected {
-    border-bottom-color: #4EBBE4;
+	cursor: pointer;
+    padding: 5px 30px;
  }
 
-#currentpage {
+.currentpage {
 	font-weight: bold;
 }	
 
@@ -48,47 +48,23 @@ img {
 	size: 200px;
  }
 
+ #content {
+ 	display: flex;
+ 	align-content: center;
+ }
+
 footer {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
-	justify-content: space-around;
+	justify-content: center;
 	align-items: flex-end;
 	order:2;
-
+	margin: 25px
 }
 
-div.footlink {
-	height:40px;
-    width:80px;
-    border-color:#6495ed;
-    background-color:blue;
-    border-style:solid;
-    border-width:2px;
-    border-radius:5px;
-    margin:auto;
-    display:inline-block;
-	
-}
-
-div.footlink:hover {
-	height:40px;
-    width:80px;
-    border-color:#6495ed;
-    background-color:darkblue;
-    border-style:solid;
-    border-width:2px;
-    border-radius:5px;
-    text-shadow: 1px 1px 2px lightgray;
-	
-}
-
-footer a {
-    text-decoration:none;
-    color: white;
-}
-
-.social_media{
-    text-decoration:none;
-    color:white;
+footer img {
+	width: 50px;
+	margin: 0px 25px;
+	border-radius: 10px;
 }
