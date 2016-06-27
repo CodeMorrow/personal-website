@@ -1,6 +1,8 @@
 <?php $thisPage = "Rock Paper Scissor";?>
 <?php $directory = "../../"; ?>
 
+<?php include ($directory . 'includes/header.php');?>
+
 <h3>Please Select Your Item</h3>
 
 <form action="check_comp_winner.php">
@@ -24,4 +26,4 @@
 	<input type="submit" name="Submit">
 </form>
 
-<?php include ($directory . 'includes/header.php');?>
+<?php include ($directory . 'includes/footer.php');?>
