@@ -1,9 +1,8 @@
 <?php $thisPage = "Rock Paper Scissors";?>
+<?php $directory = "../../"; ?>
 
-<?php include '/personal-website/includes/header.php';?>
+<?php include ($directory . 'includes/header.php');?>
 	
 	<img id="me" src="images/rps.png" width="250">
 
-	
-
-<?php include '/personal-website/includes/footer.php';?>
+<?php include ($directory . 'includes/footer.php');?>
