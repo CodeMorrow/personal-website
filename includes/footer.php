@@ -1,7 +1,3 @@
-<!DOCTYPE html>	
-<html>
-<head><title>Footer</title></head>
-<body>
 	<footer>
 		<!--Link to My Facebook Page -->    
 		<div id="facebook" class="footlink">
@@ -24,7 +20,7 @@
 		</div>
 
 		<!--Link to E-mail me -->
-		<div id="Email" class="footlink">
+		<div id="email" class="footlink">
 			<a href="mailto:codemorrow@yahoo.com?Subject=I%20checked%20out%20your%20website%20and%20wanted%20to%20reach%20out" target="_top"><img src="images/email.png" alt="Email"></a>
 		</div>
 		

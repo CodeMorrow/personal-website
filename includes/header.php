@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html>
-<head><title>Header</title></head>
+<head>
+	<link type="text/css" rel="stylesheet" href="style.css"/>
+	<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+	<title><?php if ($thisPage!=="")
+	echo "$thisPage";?></title>
+</head>
+	
 <body>
-		<header>
-			<h1><?php if ($thisPage!=="")
-		echo "$thisPage";?></h1>
-			<h3>Welcome <?php echo $_GET["name"]; ?>!</h3>
-		</header>
-</body>
-</html>
+	<header>
+		<h1><?php if ($thisPage!=="")
+			echo "$thisPage";?></h1>
+	</header>
+
+	<?php include 'includes/nav.php';?>

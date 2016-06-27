@@ -1,18 +1,6 @@
-<!DOCTYPE html>
 <?php $thisPage = "Articles";?>
-<html>
 
-<head>
-	<link type="text/css" rel="stylesheet" href="style.css"/>
-	<title><?php if ($thisPage!=="")
-	echo "$thisPage";?></title>
-</head>
-	
-<body>
-	
-	<?php include 'includes/header.php'; ?>
-	
-	<?php include 'includes/nav.php'; ?>
+<?php include 'includes/header.php'; ?>
 	
 	<div class ="main">
 		<h3>Check out these articles worth a read!</h3>
@@ -26,8 +14,4 @@
 		</ul>
 	</div>
 
-</body>
-
-	<?php include 'includes/footer.php'; ?>
-</html>
-
+<?php include 'includes/footer.php'; ?>
