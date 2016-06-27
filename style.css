@@ -11,6 +11,7 @@ header {
 	border-bottom: 3px solid black;
 
 }
+
 h1 {
 	font-size: 32px;
 }
@@ -75,5 +76,5 @@ footer {
 footer img {
 	width: 50px;
 	margin: 0px 25px;
-	border-radius: 10%;
+	border-radius: 15%;
 }

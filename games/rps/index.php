@@ -2,7 +2,7 @@
 <?php $directory = "../../"; ?>
 
 <?php include ($directory . 'includes/header.php');?>
-	
-	<img id="me" src="images/rps.png" width="250">
-
+	<div class="box">
+		<img id="rps" src="images/rps.png" width="250">
+	</div>
 <?php include ($directory . 'includes/footer.php');?>
