@@ -7,19 +7,20 @@
 	
 	<label>
 		<input type="radio" name="item" value="rock" />
-		<img src="rock.png" width="50">
-	</label>
-<br>
-	<label>
-		<input type="radio" name="item" value="paper" />
-		<img src="paper.png" width="50">
-	</label>
-<br>
-	<label>
-		<input type="radio" name="item" value="scissor" />
-		<img src="scissor.png" width="50">
+		<img class="rpslogo" src="images/rock.png">
 	</label>
 
+	<label>
+		<input type="radio" name="item" value="paper" />
+		<img class="rpslogo" src="images/paper.png">
+	</label>
+
+	<label>
+		<input type="radio" name="item" value="scissor" />
+		<img class="rpslogo" src="images/scissor.png">
+	</label>
+<br>
+<br>
 	<input type="submit" name="Submit">
 </form>
 
