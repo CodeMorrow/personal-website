@@ -21,7 +21,7 @@
 
 		<!--Link to E-mail me-->
 		<div id="email" class="footlink">
-			<a href="mailto:codemorrow@yahoo.com?Subject=I%20checked%20out%20your%20website%20and%20wanted%20to%20reach%20out" target="_top"><img src="<?php echo "$directory";?>images/email.png" alt="Email"></a>
+			<a href="mailto:codemorrow@yahoo.com?Subject=Hey%20John,%20I%20checked%20out%20your%20website%20and%20wanted%20to%20reach%20out" target="_top"><img src="<?php echo "$directory";?>images/email.png" alt="Email"></a>
 		</div>
 		
     </footer>

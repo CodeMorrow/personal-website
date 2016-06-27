@@ -8,6 +8,7 @@ header {
 	align-items: center;
 	color: #b3b3b3;
 	order: -2;
+	border-bottom: 3px solid black;
 
 }
 h1 {
@@ -17,14 +18,14 @@ h1 {
 .tabs {
 	display: flex;
 	justify-content: center;
-	border-bottom: 1px solid #D7DBDD;
+	border-bottom: 2px solid #19194d;
 	order:-1;
 }
 
 .tab {
 	cursor: pointer;
     padding: 5px 30px;
-    color: #16A2D7;
+    color: #003399;
     font-size: 18px;
 }
 
@@ -35,6 +36,14 @@ h1 {
 
 .currentpage {
 	font-weight: bold;
+}
+
+.tab a:visited {
+	color: #003399;
+}
+
+.tab a:hover {
+	color: #00b36b;
 }	
 
 body {

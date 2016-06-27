@@ -6,7 +6,7 @@
 
 	<ul>
 		<li> <a href="games/rps/index.php" target="_blank">Rock, Paper, Scissors</a>
-		<li>Tic-Tac-Toe</li>
+		<li> <a href="games/ttt/index.php" target="_blank">Tic-Tac-Toe</a></li>
 	</ul>
 
 <?php include 'includes/footer.php' ?>
