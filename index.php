@@ -2,6 +2,6 @@
 
 <?php include 'includes/header.php';?>
 	
-	<img id="me" src="images/John.jpg" width="250">
+	<img id="me" src="images/John.jpg" alt="John" width="250">
 
 <?php include 'includes/footer.php';?>
