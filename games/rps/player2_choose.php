@@ -6,24 +6,27 @@
 <p class="rpsSelectItem"><strong><em id="player2SelectItem">Player 2</em></strong> Please Select Your Item</p>
 
 <form action="check_friend_winner.php">
+
+<!-- Hidden input type -->
+<input type="hidden" name="item1" value="<?php echo $_GET["item1"]?>"/>
 	
 	<label id="rpslogo2">
-		<input type="radio" name="item" value="Rock" />
+		<input type="radio" name="item2" value="Rock" />
 		<img class="rpslogo" src="images/rock.png">
 	</label>
 
 	<label id="rpslogo2">
-		<input type="radio" name="item" value="Raper" />
+		<input type="radio" name="item2" value="Paper" />
 		<img class="rpslogo" src="images/paper.png">
 	</label>
 
 	<label id="rpslogo2">
-		<input type="radio" name="item" value="Scissors" />
+		<input type="radio" name="item2" value="Scissors" />
 		<img class="rpslogo" src="images/scissor.png">
 	</label>
 <br>
 <br>
-	<button type="submit" name="Submit">Shoot!</button>
+	<button type="submit" name="Submit">Rock, Paper, Scissors, Shoot!</button>
 </form>
 
 <?php include ($directory . 'includes/footer.php');?>
