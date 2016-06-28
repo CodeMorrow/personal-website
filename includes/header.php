@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="icon" href="images/favicon.ico">
 	<link type="text/css" rel="stylesheet" href="<?php echo "$directory";?>style.css"/>
 	<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
 	<title><?php if ($thisPage!=="")
