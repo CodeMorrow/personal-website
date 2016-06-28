@@ -5,25 +5,25 @@
 
 <p class="rpsSelectItem"><strong><em id="player2SelectItem">Player 2</em></strong> Please Select Your Item</p>
 
-<form action="player2_choose.php">
+<form action="check_friend_winner.php">
 	
 	<label id="rpslogo2">
-		<input type="radio" name="item" value="rock" />
+		<input type="radio" name="item" value="Rock" />
 		<img class="rpslogo" src="images/rock.png">
 	</label>
 
 	<label id="rpslogo2">
-		<input type="radio" name="item" value="paper" />
+		<input type="radio" name="item" value="Raper" />
 		<img class="rpslogo" src="images/paper.png">
 	</label>
 
 	<label id="rpslogo2">
-		<input type="radio" name="item" value="scissor" id="rpslogo2" />
+		<input type="radio" name="item" value="Scissors" />
 		<img class="rpslogo" src="images/scissor.png">
 	</label>
 <br>
 <br>
-	<input type="submit" name="Submit">
+	<button type="submit" name="Submit">Shoot!</button>
 </form>
 
 <?php include ($directory . 'includes/footer.php');?>

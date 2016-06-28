@@ -5,13 +5,13 @@
 
 	<div class="box">
 
-		<h3>Please Select How many players will play.</h3>
+		<h3>Please select how many players will play.</h3>
 			
 			<form class="number_of_players">
-				<input type="radio" name="verses" value="friend" onclick="document.location.href='twoPlayers.php'">I have a friend
+				<input type="radio" name="verses" value="friend" onclick="document.location.href='twoPlayers.php'">I'd like to challenge a friend.
 			<br>
 			<br>
-				<input type="radio" name="verses" value="computer" onclick="document.location.href='onePlayer.php'">I am alone.... and will be forever
+				<input type="radio" name="verses" value="computer" onclick="document.location.href='onePlayer.php'">I'd like to challenge the computer.
 			</form>
 
 		<br>

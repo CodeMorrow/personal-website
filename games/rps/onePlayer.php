@@ -5,20 +5,20 @@
 
 <h3>Please Select Your Item</h3>
 
-<form action="check_comp_winner.php">
+<form action="computer_outcome.php">
 	
 	<label>
-		<input type="radio" name="item" value="rock" />
+		<input type="radio" name="item" value="Rock" />
 		<img class="rpslogo" src="images/rock.png">
 	</label>
 
 	<label>
-		<input type="radio" name="item" value="paper" />
+		<input type="radio" name="item" value="Paper" />
 		<img class="rpslogo" src="images/paper.png">
 	</label>
 
 	<label>
-		<input type="radio" name="item" value="scissor" />
+		<input type="radio" name="item" value="Scissors" />
 		<img class="rpslogo" src="images/scissor.png">
 	</label>
 <br>

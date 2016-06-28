@@ -23,7 +23,7 @@
 	</label>
 <br>
 <br>
-	<input type="submit" name="Submit">
+	<input type="submit" name="submit" value="player1">
 </form>
 
 <?php include ($directory . 'includes/footer.php');?>

@@ -1,14 +1,19 @@
-<?php 
-	
-    $Player = $_GET['item'];
+<?php $thisPage = "Rock Paper Scissors";?>
+<?php $directory = "../../"; ?>
 
-    $Choosefrom= array(Rock, Paper, Scissors);
-    $Choice= rand(0,2);
-    $Computer=$Choosefrom[$Choice];
+<?php include ($directory . 'includes/header.php');?>
+
+<?php 
+
+	$ComputerChoice = array('Rock', 'Paper', 'Scissors');
+	
+	$Player = $_GET["item"];
+	$Computer=$ComputerChoice[rand(0,2)];
 
 function outcome($Player, $Computer){
+
     if($Player == $Computer) {
-        return 'It was a Tie.';
+        return "It was a Tie.";
     
     } elseif($Player == 'Rock' && $Computer == 'Scissors'){
         return "You! The computer chose Scissors.";
@@ -31,3 +36,9 @@ function outcome($Player, $Computer){
     return outcome;
 }
 ?>
+
+<h3>And the Winner is...</h3>
+
+<p><?php echo outcome(); ?></p>
+
+<?php include ($directory . 'includes/footer.php');?>
