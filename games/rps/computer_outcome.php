@@ -39,6 +39,6 @@ function outcome($Player, $Computer){
 
 <h3>And the Winner is...</h3>
 
-<p><?php echo outcome(); ?></p>
+<p><?php echo outcome($Player,$Computer); ?></p>
 
 <?php include ($directory . 'includes/footer.php');?>
