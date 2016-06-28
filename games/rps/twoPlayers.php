@@ -3,7 +3,7 @@
 
 <?php include ($directory . 'includes/header.php');?>
 
-<h3>Please Select Your Item</h3>
+<p class="rpsSelectItem"><strong><em id="player1SelectItem">Player 1</em></strong> Please Select Your Item</p>
 
 <form action="player2_choose.php">
 	
