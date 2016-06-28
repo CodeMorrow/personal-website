@@ -8,10 +8,12 @@
 		<h3>Please select how many players will play.</h3>
 			
 			<form class="number_of_players">
-				<input type="radio" name="verses" value="friend" onclick="document.location.href='player1_choose.php'">I'd like to challenge a friend.
+				
+				<input class="rpsbutton" type="button" name="verses" value="1 PLAYER" onclick="document.location.href='onePlayer.php'">
 			<br>
 			<br>
-				<input type="radio" name="verses" value="computer" onclick="document.location.href='onePlayer.php'">I'd like to challenge the computer.
+				<input class="rpsbutton" type="button" name="verses" value="2 PLAYERS" onclick="document.location.href='player1_choose.php'">
+				
 			</form>
 
 		<br>

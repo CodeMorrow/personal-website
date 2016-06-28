@@ -3,7 +3,7 @@
 
 <?php include ($directory . 'includes/header.php');?>
 
-<h3>Please Select Your Item</h3>
+<h3>Please Select Your Weapon</h3>
 
 <form action="computer_outcome.php">
 	
@@ -23,7 +23,7 @@
 	</label>
 <br>
 <br>
-	<input type="submit" name="Submit">
+	<input type="submit" name="submit" value="Rock, Paper, Scissors, SHOOT!" class="rpsbutton">
 </form>
 
 <?php include ($directory . 'includes/footer.php');?>

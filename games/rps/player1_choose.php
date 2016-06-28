@@ -3,7 +3,7 @@
 
 <?php include ($directory . 'includes/header.php');?>
 
-<p class="rpsSelectItem"><strong><em id="player1SelectItem">Player 1</em></strong> Please Select Your Item</p>
+<p class="rpsSelectItem"><strong><em id="player1SelectItem">Player 1</em></strong> Please Select Your Weapon</p>
 
 <form action="player2_choose.php">
 	
@@ -23,7 +23,7 @@
 	</label>
 <br>
 <br>
-	<input type="submit" name="submit" value="Next">
+	<input type="submit" name="submit" value="Next" class="rpsbutton">
 </form>
 
 <?php include ($directory . 'includes/footer.php');?>

@@ -3,7 +3,7 @@
 
 <?php include ($directory . 'includes/header.php');?>
 
-<p class="rpsSelectItem"><strong><em id="player2SelectItem">Player 2</em></strong> Please Select Your Item</p>
+<p class="rpsSelectItem"><strong><em id="player2SelectItem">Player 2</em></strong> Please Select Your Weapon</p>
 
 <form action="check_friend_winner.php">
 
@@ -26,7 +26,7 @@
 	</label>
 <br>
 <br>
-	<button type="submit" name="Submit">Rock, Paper, Scissors, Shoot!</button>
+	<input type="submit" name="Submit" value ="Rock, Paper, Scissors, Shoot!" class="rpsbutton"/>
 </form>
 
 <?php include ($directory . 'includes/footer.php');?>

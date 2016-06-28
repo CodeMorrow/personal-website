@@ -16,22 +16,22 @@ function outcome($Player, $Computer){
         return "It was a Tie.";
     
     } elseif($Player == 'Rock' && $Computer == 'Scissors'){
-        return "You! The computer chose Scissors.";
+        return "<strong>You!</strong> You chose Rock and the computer chose Scissors.";
     
     } elseif($Player == 'Rock' && $Computer == 'Paper'){
-        return "The Computer! The computer chose Paper.";
+        return "<strong>The Computer!</strong> The computer chose Paper and you chose Rock.";
     
     } elseif($Player == 'Scissors' && $Computer == 'Rock'){
-        return "The Computer! The computer chose Rock.";
+        return "<strong>The Computer!</strong> The computer chose Rock and you chose Scissors.";
     
     } elseif($Player == 'Scissors' && $Computer == 'Paper'){
-        return "You! The computer chose Paper.";
+        return "<strong>You!</strong> You chose Scissors and the computer chose Paper.";
 
     } elseif($Player == 'Paper' && $Computer == 'Rock'){
-        return "You! The computer chose Rock.";
+        return "<strong>You!</strong> You chose Paper and the computer chose Rock.";
 
     } elseif($Player == 'Paper' && $Computer == 'Scissors'){
-        return "The Computer! The computer chose Scissors.";
+        return "<strong>The Computer!</strong> The computer chose Scissors and you chose Paper.";
     }
     return outcome;
 }
@@ -40,5 +40,7 @@ function outcome($Player, $Computer){
 <h3>And the Winner is...</h3>
 
 <p><?php echo outcome($Player,$Computer); ?></p>
+
+<input class="rpsbutton" type="button" name="playagain" value="Play Again" onclick="document.location.href='index.php'"/>
 
 <?php include ($directory . 'includes/footer.php');?>

@@ -131,3 +131,8 @@ label#rpslogo2 > input:checked + img {
 #player2SelectItem {
 	color: #0000cc
 }
+
+input.rpsbutton {
+	font-size: xx-large;
+	width: auto;
+}

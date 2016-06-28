@@ -2,7 +2,14 @@
 
 <?php include 'includes/header.php'; ?>
 	
-		<iframe src="//giphy.com/embed/NeWB0kkFIvZTi?html5=true" width="480" height="278" class="giphy-embed" allowFullScreen></iframe>
+	<ul>
+		<li>Complete Rock, Paper, Scissors game.</li>
+		<li>Complete Tic-Tac-Toe game.</li>
+		<li>Design and Develop EGYL (my fantasy football league) website</li>
+
+	</ul>
+
+		<iframe src="//giphy.com/embed/NeWB0kkFIvZTi?html5=true" width="240" height="139" class="giphy-embed" allowFullScreen></iframe>
 
 
 <?php include 'includes/footer.php' ?>
