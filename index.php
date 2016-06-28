@@ -1,4 +1,4 @@
-<?php $thisPage = "Home - My Website"; ?>
+<?php $thisPage = "Welcome to My Website"; ?>
 
 <?php include 'includes/header.php';?>
 	

@@ -61,6 +61,22 @@ img {
  	align-content: center;
  }
 
+ #gameList{
+ 	cursor: pointer;
+    padding: 5px 30px;
+    color: #003399;
+    list-style: none;
+    width: 150px;
+}
+
+#gameList a:visited {
+	color: #003399;
+}
+
+#gameList a:hover {
+	color: #00b36b;
+}
+
 footer {
 	display: flex;
 	flex-direction: row;

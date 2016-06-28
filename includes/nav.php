@@ -1,7 +1,7 @@
 <div class="tabs">
 
 	<div class="tab is_tab_selected">
-		<p <?php if ($thisPage=="Home - My Website") 
+		<p <?php if ($thisPage=="Welcome to My Website") 
 			echo "class=\"currentpage\""; ?>>
 				<a href="index.php">Home</a></p>
 	</div>
