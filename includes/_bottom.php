@@ -1,3 +1,4 @@
+</div>
 	<footer>
 		<!--Link to My Facebook Page-->    
 		<div id="facebook" class="footlink">
