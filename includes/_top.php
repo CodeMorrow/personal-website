@@ -8,9 +8,9 @@
 	echo "$thisPage";?></title>
 </head>
 	
-<body class="Site">
-	<header>
-		<h1><?php if ($thisPage!=="")
+<body class="body">
+	<header class="header">
+		<h1 class="header__title"><?php if ($thisPage!=="")
 			echo "$thisPage";?></h1>
 	</header>
 
