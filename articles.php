@@ -2,7 +2,7 @@
 
 <?php include ('includes/_top.php');?>
 	
-	<div class ="main">
+	<div class ="content">
 		<h3>Check out these articles worth a read!</h3>
 			<img id= "newspaper" src="images/newspaper.jpg" alt="newspapers" width="250">
 		

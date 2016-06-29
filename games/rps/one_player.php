@@ -8,7 +8,7 @@
 <form action="computer_outcome.php">
 	
 	<label>
-		<input type="radio" name="item" value="Rock" />
+		<input type="radio" name="item" value="Rock"/>
 		<img class="rpslogo" src="images/rock.png">
 	</label>
 

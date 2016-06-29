@@ -9,7 +9,6 @@
 .header {
 	background-color: #003399;
 	display: flex;
-	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	color: #b3b3b3;
@@ -18,7 +17,7 @@
 
 }
 
-.pageTitle {
+.header__title {
 	font-size: 32px;
 }
 /* --------------------  CSS for _nav.php  --------------------------- */
@@ -73,18 +72,16 @@
 	flex-direction: column;
 }
 
-img { 
-	size: 200px;
- }
 
- #me{
+/* --------------------------- Picture of me ------------------ */
+ .me{
  	border: solid 2px black;
  	border-radius: 25%;
  }
 
- #content {
- 	display: flex;
- 	align-content: center;
+/* ---------------------------- Content of each page ----------- */
+ .content {
+ 	align-items: center;
  }
 
  .articlelist{
@@ -106,23 +103,27 @@ img {
 #gameList a:hover {
 	color: #00b36b;
 }
-
-footer {
+ /*-------------------------- Footer CSS -----------------*/
+.footer {
 	display: flex;
 	flex: 1;
 	flex-wrap: nowrap;
 	justify-content: center;
 	align-items: flex-end;
-	order:3;
+	order:99;
 	margin: 25px
 }
 
-footer img {
+.footer__link{
+
+}
+
+.footer__link__img {
 	width: 50px;
 	margin: 0px 25px;
 	border-radius: 15%;
 }
-
+/*-------------------------------- RPS CSS ----------------------------*/
 .rpslogo{
 	width: 200px;
 	height: 200px;
@@ -164,4 +165,75 @@ label#rpslogo2 > input:checked + img {
 
 input.rpsbutton {
 	font-size: xx-large;
+}
+
+/* ------------------------------------ TTT CSS ---------------------- */
+.ticTacToe__title{
+	font-size: 32px;
+	margin: 5px;
+}
+
+.board {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	vertical-align: center;
+	flex-wrap: wrap;
+	align-content: center;
+	font-family: 'Open Sans', sans-serif;
+	border-radius: 10px 10px 0 0;
+	
+}
+
+.ticTacToe {
+	display: flex;
+	justify-content: center;
+	width: 330px;
+	height: 330px;
+	padding: 5px;
+	border: 5px solid black;
+	background-color: blue;
+}
+
+.ticTacToe__column {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.ticTacToe__square {
+	display: block;
+	width: 100px;
+	height: 100px;
+	border: 2px solid darkblue;
+	color: black;
+	font-size: 48px;
+	font-weight: 100;
+	text-align: center;
+	background-color: lightblue;
+}
+
+.ticTacToe__info {
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 330px;
+	height: 115px;
+	padding: 5px;
+	border: 5px solid black;
+	border-top: 0px;
+	background-color: darkgray;
+	border-radius: 0 0 10px 10px;
+}
+
+.ticTacToe__results {
+	display: flex;
+	font-size: 24px;
+	align-items: center;
+	justify-content: center;
+	background-color: lightgray;
+	width: 40%;
+	margin-bottom: -12px;
+	color: darkblue;
 }
