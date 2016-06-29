@@ -10,7 +10,7 @@
 	$Player = $_GET["item"];
 	$Computer=$ComputerChoice[rand(0,2)];
 
-function outcome($Player, $Computer){
+/*function outcome($Player, $Computer){
 
     if($Player == $Computer) {
         return "It was a Tie.";
@@ -32,6 +32,25 @@ function outcome($Player, $Computer){
 
     } elseif($Player == 'Paper' && $Computer == 'Scissors'){
         return "<strong>The Computer!</strong> The computer chose Scissors and you chose Paper.";
+    }
+    return outcome;
+}*/
+
+function outcome($Player, $Computer){
+    if($Player == $Computer) {
+        return "It was a Tie. You and the Computer both chose" . $Player . ".";
+    } 
+
+    elseif($Player == 'Rock' && $Computer == 'Scissors' ||
+         $Player == 'Scissors' && $Computer == 'Paper' ||
+         $Player == 'Paper' && $Computer == 'Rock'){
+            return "<strong>You!</strong> You chose " . $Player ." and the computer chose " . $Computer. ".";
+    }
+
+    elseif($Computer == 'Rock' && $Player == 'Scissors' ||
+         $Computer == 'Scissors' && $Player == 'Paper' ||
+         $Computer == 'Paper' && $Player == 'Rock'){
+            return "<strong>The Computer!</strong> The computer chose " . $Computer . " and you chose " . $Player . ".";
     }
     return outcome;
 }

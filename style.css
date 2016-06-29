@@ -1,3 +1,8 @@
+.Site{
+	display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
 header {
 	background-color: #003399;
 	display: flex;
@@ -5,7 +10,7 @@ header {
 	justify-content: center;
 	align-items: center;
 	color: #b3b3b3;
-	order: -2;
+	order: 0;
 	border-bottom: 3px solid black;
 
 }
@@ -18,7 +23,7 @@ h1 {
 	display: flex;
 	justify-content: center;
 	border-bottom: 2px solid #19194d;
-	order:-1;
+	order:1;
 }
 
 .tab {
@@ -50,17 +55,23 @@ h1 {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	order: 1;
 }	
 
 body {
 	background-color: lightgray;
 	display: flex; 
-	order:1;
+	order:2;
 	flex-direction: column;
 }
 
 img { 
 	size: 200px;
+ }
+
+ #me{
+ 	border: solid 2px black;
+ 	border-radius: 25%;
  }
 
  #content {
@@ -90,15 +101,11 @@ img {
 
 footer {
 	display: flex;
-	flex-direction: row;
+	flex: 1;
 	flex-wrap: nowrap;
 	justify-content: center;
 	align-items: flex-end;
-	position: absolute;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	order:2;
+	order:3;
 	margin: 25px
 }
 

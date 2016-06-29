@@ -8,7 +8,7 @@
     $Player1 = $_GET["item1"];
     $Player2 = $_GET["item2"];
 
-function outcome($Player1, $Player2){
+/*function outcome($Player1, $Player2){
 
     if($Player1 == $Player2) {
         return "It was a Tie.";
@@ -32,7 +32,29 @@ function outcome($Player1, $Player2){
         return "<strong id=\"player2SelectItem\">Player 2!</strong> Player 2 chose Scissors while Player 1 chose Paper.";
     }
     return outcome;
+}*/
+
+function outcome($Player1, $Player2){
+    if($Player1 == $Player2) {
+        return "It was a Tie. Player 1 and the Player 2 both chose" . $Player1 . ".";
+    } 
+
+    elseif($Player1 == 'Rock' && $Player2 == 'Scissors' ||
+         $Player1 == 'Scissors' && $Player2 == 'Paper' ||
+         $Player1 == 'Paper' && $Player2 == 'Rock'){
+            return "<strong id=\"player1SelectItem\">Player 1!</strong> Player 1 chose " . $Player1 ." and Player 2 chose " . $Player2. ".";
+    }
+
+    elseif($Player2 == 'Rock' && $Player1 == 'Scissors' ||
+         $Player2 == 'Scissors' && $Player1 == 'Paper' ||
+         $Player2 == 'Paper' && $Player1 == 'Rock'){
+            return "<strong id=\"player2SelectItem\">The Player2!</strong> Player 2 chose " . $Player2 . " and Player 1 chose " . $Player1 . ".";
+    }
+    return outcome;
 }
+
+
+
 ?>
 
 <h3>And the Winner is...</h3>

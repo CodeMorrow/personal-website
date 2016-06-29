@@ -8,7 +8,7 @@
 	echo "$thisPage";?></title>
 </head>
 	
-<body>
+<body class="Site">
 	<header>
 		<h1><?php if ($thisPage!=="")
 			echo "$thisPage";?></h1>
