@@ -36,4 +36,5 @@
     <div class="ticTacToe__results">Draw =</div><br>
 </div>
 
+
 <?php include ($directory . 'includes/_bottom.php');?>
