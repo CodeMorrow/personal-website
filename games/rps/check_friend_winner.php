@@ -14,7 +14,7 @@ function outcome($Player1, $Player2){
         return "It was a Tie.";
     
     } elseif($Player1 == 'Rock' && $Player2 == 'Scissors'){
-        return "<strong id=\"player1SelectItem\">Player 1!</strong> Player one chose Rock while Player 2 chose Scissors.";
+        return "<strong id=\"player1SelectItem\">Player 1!</strong> Player 1 chose Rock while Player 2 chose Scissors.";
     
     } elseif($Player1 == 'Rock' && $Player2 == 'Paper'){
         return "<strong id=\"player2SelectItem\">Player 2!</strong> Player 2 chose Paper while Player 1 chose Rock.";
@@ -23,10 +23,10 @@ function outcome($Player1, $Player2){
         return "<strong id=\"player2SelectItem\">Player 2!</strong> Player 2 chose Rock while Player 1 chose Scissors.";
     
     } elseif($Player1 == 'Scissors' && $Player2 == 'Paper'){
-        return "<strong id=\"player1SelectItem\">Player 1!</strong> Player one chose Scissors while Player 2 chose Paper.";
+        return "<strong id=\"player1SelectItem\">Player 1!</strong> Player 1 chose Scissors while Player 2 chose Paper.";
 
     } elseif($Player1 == 'Paper' && $Player2 == 'Rock'){
-        return "<strong id=\"player1SelectItem\">Player 1!</strong> Player one chose Paper while Player 2 chose Rock.";
+        return "<strong id=\"player1SelectItem\">Player 1!</strong> Player 1 chose Paper while Player 2 chose Rock.";
 
     } elseif($Player1 == 'Paper' && $Player2 == 'Scissors'){
         return "<strong id=\"player2SelectItem\">Player 2!</strong> Player 2 chose Scissors while Player 1 chose Paper.";
