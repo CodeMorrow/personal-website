@@ -195,9 +195,9 @@ input.rpsbutton {
 	background-color: blue;
 }
 
-.ticTacToe__column {
+.ticTacToe__row {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	justify-content: space-between;
 }
 
@@ -236,4 +236,8 @@ input.rpsbutton {
 	width: 40%;
 	margin-bottom: -12px;
 	color: darkblue;
+}
+
+.ticTacToe__mark{
+	width: 100px;
 }
