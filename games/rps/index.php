@@ -1,7 +1,7 @@
 <?php $thisPage = "Rock Paper Scissors";?>
 <?php $directory = "../../"; ?>
 
-<?php include ($directory . 'includes/header.php');?>
+<?php include ($directory . 'includes/_top.php');?>
 
 	<div class="box">
 
@@ -9,7 +9,7 @@
 			
 			<form class="number_of_players">
 				
-				<input class="rpsbutton" type="button" name="verses" value="1 PLAYER" onclick="document.location.href='onePlayer.php'">
+				<input class="rpsbutton" type="button" name="verses" value="1 PLAYER" onclick="document.location.href='one_player.php'">
 			<br>
 			<br>
 				<input class="rpsbutton" type="button" name="verses" value="2 PLAYERS" onclick="document.location.href='player1_choose.php'">
@@ -21,4 +21,4 @@
 			<img id="rps" src="images/rps.png" alt="Rock Paper Scissor Diagram" width="250">
 
 	</div>
-<?php include ($directory . 'includes/footer.php');?>
+<?php include ($directory . 'includes/_bottom.php');?>

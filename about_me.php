@@ -1,6 +1,6 @@
 <?php $thisPage = "About Me"; ?>
 
-<?php include 'includes/header.php'; ?>
+<?php include 'includes/_top.php'; ?>
 
 		<img id="me" src="images/John.jpg" alt="John" width="250">
 
@@ -10,4 +10,4 @@
 		<p>My hobbies include golf, fantasy football, working out, cycling, and trying news beers, whiskeys and food.</p>
 	</div>
 
-<?php include 'includes/footer.php'; ?>
+<?php include 'includes/_bottom.php'; ?>

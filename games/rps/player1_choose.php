@@ -1,7 +1,7 @@
 <?php $thisPage = "Rock Paper Scissors";?>
 <?php $directory = "../../"; ?>
 
-<?php include ($directory . 'includes/header.php');?>
+<?php include ($directory . 'includes/_top.php');?>
 
 <p class="rpsSelectItem"><strong><em id="player1SelectItem">Player 1</em></strong> Please Select Your Weapon</p>
 
@@ -26,4 +26,4 @@
 	<input type="submit" name="submit" value="Next" class="rpsbutton">
 </form>
 
-<?php include ($directory . 'includes/footer.php');?>
+<?php include ($directory . 'includes/_bottom.php');?>

@@ -1,7 +1,7 @@
 <?php $thisPage = "Rock Paper Scissors";?>
 <?php $directory = "../../"; ?>
 
-<?php include ($directory . 'includes/header.php');?>
+<?php include ($directory . 'includes/_top.php');?>
 
 <h3>Please Select Your Weapon</h3>
 
@@ -26,4 +26,4 @@
 	<input type="submit" name="submit" value="Rock, Paper, Scissors, SHOOT!" class="rpsbutton">
 </form>
 
-<?php include ($directory . 'includes/footer.php');?>
+<?php include ($directory . 'includes/_bottom.php');?>

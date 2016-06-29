@@ -1,7 +1,7 @@
 <?php $thisPage = "8 Characteristics Of Successful User Interfaces"; ?>
 <?php $directory = "../"; ?>
 
-<?php include ($directory . 'includes/header.php');?>
+<?php include ($directory . 'includes/_top.php');?>
 
 		<img id="eight" src="images/8.jpg" alt="A white 8 with green background" width="150">
 
@@ -27,4 +27,4 @@
 
 			<p>It can be troubling trying to strike balance between these 8 characteristics but as long as you try to touch on all 8 your app’s user interface will be much more enjoyable. </p>
 	
-<?php include ($directory . 'includes/footer.php');?>
+<?php include ($directory . 'includes/_bottom.php');?>

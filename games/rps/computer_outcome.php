@@ -1,7 +1,7 @@
 <?php $thisPage = "Rock Paper Scissors";?>
 <?php $directory = "../../"; ?>
 
-<?php include ($directory . 'includes/header.php');?>
+<?php include ($directory . 'includes/_top.php');?>
 
 <?php 
 
@@ -41,6 +41,6 @@ function outcome($Player, $Computer){
 
 <p><?php echo outcome($Player,$Computer); ?></p>
 
-<input class="rpsbutton" type="button" name="playagain" value="Play Again" onclick="document.location.href='index.php'"/>
+<input class="rpsbutton" type="submit" name="playagain" value="Play Again" onclick="document.location.href='index.php'"/>
 
-<?php include ($directory . 'includes/footer.php');?>
+<?php include ($directory . 'includes/_bottom.php');?>

@@ -1,6 +1,6 @@
 <?php $thisPage = "Articles";?>
 
-<?php include ($directory . 'includes/header.php');?>
+<?php include ('includes/_top.php');?>
 	
 	<div class ="main">
 		<h3>Check out these articles worth a read!</h3>
@@ -14,4 +14,4 @@
 		</ul>
 	</div>
 
-<?php include 'includes/footer.php'; ?>
+<?php include 'includes/_bottom.php'; ?>

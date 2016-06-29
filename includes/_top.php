@@ -14,4 +14,4 @@
 			echo "$thisPage";?></h1>
 	</header>
 
-	<?php include 'includes/nav.php';?>
+	<?php include ($directory .'includes/_nav.php');?>
