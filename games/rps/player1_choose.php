@@ -18,7 +18,7 @@
 	</label>
 
 	<label>
-		<input type="radio" name="item1" value="Scissor" />
+		<input type="radio" name="item1" value="Scissors" />
 		<img class="rpslogo" src="images/scissor.png">
 	</label>
 <br>

@@ -38,7 +38,7 @@
 
 function outcome($Player, $Computer){
     if($Player == $Computer) {
-        return "It was a Tie. You and the Computer both chose" . $Player . ".";
+        return "It was a Tie. You and the Computer both chose " . $Player . ".";
     } 
 
     elseif($Player == 'Rock' && $Computer == 'Scissors' ||

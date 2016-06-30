@@ -1,5 +1,5 @@
 <?php
-include("computer_outcome.php");
+include("check_friend_winner.php");
 
 echo "\n\n\nTESTS BEGIN HERE\n";
 

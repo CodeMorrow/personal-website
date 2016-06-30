@@ -10,7 +10,7 @@
 
 /*function outcome($Player1, $Player2){
 
-    if($Player1 == $Player2) {
+     if($Player1 == $Player2) {
         return "It was a Tie.";
     
     } elseif($Player1 == 'Rock' && $Player2 == 'Scissors'){
@@ -36,7 +36,7 @@
 
 function outcome($Player1, $Player2){
     if($Player1 == $Player2) {
-        return "It was a Tie. Player 1 and the Player 2 both chose" . $Player1 . ".";
+        return "It was a Tie. Player 1 and the Player 2 both chose " . $Player1 . ".";
     } 
 
     elseif($Player1 == 'Rock' && $Player2 == 'Scissors' ||
