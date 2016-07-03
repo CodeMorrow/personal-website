@@ -201,16 +201,22 @@ input.rpsbutton {
 	justify-content: space-between;
 }
 
+
 .ticTacToe__square {
-	display: block;
+	display: flex;
 	width: 100px;
 	height: 100px;
 	border: 2px solid darkblue;
-	color: black;
-	font-size: 48px;
+	color: darkblue;
+	font-size: 80px;
 	font-weight: 100;
-	text-align: center;
+	text-decoration: none;
+	justify-content: center;
 	background-color: lightblue;
+}
+
+.ticTacToe__row a{
+	text-decoration: none;
 }
 
 .ticTacToe__info {
@@ -233,11 +239,15 @@ input.rpsbutton {
 	align-items: center;
 	justify-content: center;
 	background-color: lightgray;
-	width: 40%;
+	width: 65%;
 	margin-bottom: -12px;
 	color: darkblue;
 }
 
 .ticTacToe__mark{
 	width: 100px;
+}
+
+.ticTacToe__winner{
+	font-size: 64px;
 }

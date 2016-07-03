@@ -8,41 +8,49 @@
 
 <h3 class="ticTacToe__title">Player vs. Computer</h3>
 
-<p>It's (playerX) turn.</p>
+<p>
+	<?php
+		if(end($_GET)=="X"){
+			echo "Computer's Turn";
+		} else {
+			echo "Player's Turn";
+	}?>
+</p>
 
 <br>
 <!-- Tic Tac Toe Board -->
 <div class="board ticTacToe">
 	<div class="ticTacToe__row">
-		<input class="ticTacToe__square" id="box0" value="0">
-		<input class="ticTacToe__square" id="box1" value="1">
-		<input class="ticTacToe__square" id="box2" value="2">
+		<a href="<?php if(($_GET[0]=='X') || ($_GET[0] == 'O')){} else{echo "?".$_SERVER['QUERY_STRING']; echo $turn[0];}; ?>"><div class="ticTacToe__square" id="box0"><?php echo $_GET[0]; ?></div></a>
+		<a href="<?php if(($_GET[1]=='X') || ($_GET[1] == 'O')){} else{echo "?".$_SERVER['QUERY_STRING']; echo $turn[1];}; ?>"><div class="ticTacToe__square" id="box1"><?php echo $_GET[1]; ?></div></a>
+		<a href="<?php if(($_GET[2]=='X') || ($_GET[2] == 'O')){} else{echo "?".$_SERVER['QUERY_STRING']; echo $turn[2];}; ?>"><div class="ticTacToe__square" id="box2"><?php echo $_GET[2]; ?></div></a>
 	</div>
 
 	<div class="ticTacToe__row">
-		<input class="ticTacToe__square" id="box3" value="3">
-		<input class="ticTacToe__square" id="box4" value="4">
-		<input class="ticTacToe__square" id="box5" value="5">
+		<a href="<?php if(($_GET[3]=='X') || ($_GET[3] == 'O')){} else{echo "?".$_SERVER['QUERY_STRING']; echo $turn[3];}; ?>"><div class="ticTacToe__square" id="box3"><?php echo $_GET[3]; ?></div></a>
+		<a href="<?php if(($_GET[4]=='X') || ($_GET[4] == 'O')){} else{echo "?".$_SERVER['QUERY_STRING']; echo $turn[4];}; ?>"><div class="ticTacToe__square" id="box4"><?php echo $_GET[4]; ?></div></a>
+		<a href="<?php if(($_GET[5]=='X') || ($_GET[5] == 'O')){} else{echo "?".$_SERVER['QUERY_STRING']; echo $turn[5];}; ?>"><div class="ticTacToe__square" id="box5"><?php echo $_GET[5]; ?></div></a>
 	</div>
 
 	<div class="ticTacToe__row">
-		<input class="ticTacToe__square" id="box6" value="6">
-		<input class="ticTacToe__square" id="box7" value="7">
-		<input class="ticTacToe__square" id="box8" value="8">
+		<a href="<?php if(($_GET[6]=='X') || ($_GET[6] == 'O')){} else{echo "?".$_SERVER['QUERY_STRING']; echo $turn[6];}; ?>"><div class="ticTacToe__square" id="box6"><?php echo $_GET[6]; ?></div></a>
+		<a href="<?php if(($_GET[7]=='X') || ($_GET[7] == 'O')){} else{echo "?".$_SERVER['QUERY_STRING']; echo $turn[7];}; ?>"><div class="ticTacToe__square" id="box7"><?php echo $_GET[7]; ?></div></a>
+		<a href="<?php if(($_GET[8]=='X') || ($_GET[8] == 'O')){} else{echo "?".$_SERVER['QUERY_STRING']; echo $turn[8];}; ?>"><div class="ticTacToe__square" id="box8"><?php echo $_GET[8]; ?></div></a>
 	</div>
 </div>
 
 <div>
 	<div class="ticTacToe__info">
-	  	<div class="ticTacToe__results">Win = 0</div><br>
-	    <div class="ticTacToe__results">Loss = 0</div><br>
-	    <div class="ticTacToe__results">Draw = 0</div><br>
+	  	<div class="ticTacToe__results">Player 1 Win = 0</div><br>
+	    <div class="ticTacToe__results">Player 2 Win = 0</div><br>
+	    <div class="ticTacToe__results">Cat's Game = 0</div><br>
 	</div>
 </div>
 
 <br>
 
-<input type="button" name="submit" value="Check the board and Move on">
+<div class="ticTacToe__winner"><?php echo checkWin($GET,$xWin,$oWin); ?></div>
 
+<div><a href="index.php">Play Again?</a></div>
 
 <?php include ($directory . 'includes/_bottom.php');?>
