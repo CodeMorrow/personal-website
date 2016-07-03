@@ -11,9 +11,11 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	color: #b3b3b3;
+	color: white;
+	text-shadow: 2px 2px black;
 	order: 0;
 	border-bottom: 3px solid black;
+	font-family: 'Alegreya SC', serif;
 
 }
 
@@ -34,6 +36,7 @@
     padding: 5px 30px;
     color: #003399;
     font-size: 18px;
+    font-family: 'Monda', sans-serif;
 }
 
 .is-tab-selected {
@@ -43,6 +46,7 @@
 
 .currentpage {
 	font-weight: bold;
+	color: #00b36b;
 }
 
 .nav a:visited {
@@ -55,14 +59,6 @@
 
 /* --------------------  CSS for the Body  --------------------------- */
 
-#flexbox1 {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	order: 1;
-}	
-
 .body {
 	display: flex;
     min-height: 100vh;
@@ -72,20 +68,33 @@
 	flex-direction: column;
 }
 
+#flexbox1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	order: 1;
+	font-family: 'Droid Sans', sans-serif;
+}
 
 /* --------------------------- Picture of me ------------------ */
  .me{
  	border: solid 2px black;
  	border-radius: 25%;
+ 	box-shadow: 0px 0px 5px 2px black;
  }
 
 /* ---------------------------- Content of each page ----------- */
  .content {
- 	align-items: center;
+ 	justify-content: center;
+ 	max-width: 60vh;
  }
-
- .articlelist{
- 	list-style-type: none;
+ 
+ #newspaper {
+ 	width: 250px;
+ 	border: solid 2px black;
+ 	border-radius: 50%;
+ 	box-shadow: 0px 0px 5px 2px black;
  }
 
  #gameList{
@@ -163,7 +172,7 @@ label#rpslogo2 > input:checked + img {
 	color: #0000cc
 }
 
-input.rpsbutton {
+.rpsbutton {
 	font-size: xx-large;
 }
 

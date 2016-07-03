@@ -35,18 +35,18 @@
             array(2=>"O", 4=>"O", 6=>"O")
         );
 
-    function checkWin($GET, $xWin, $oWin) {
-        $GET = $_GET;
+    function checkWin($boardStatus, $xWin, $oWin) {
+        $boardStatus = $_GET;
         $winner= "";
         foreach ($xWin as $arrayWin) {
-            if (array_intersect_assoc($GET, $arrayWin) == $arrayWin) {
+            if (array_intersect_assoc($boardStatus, $arrayWin) == $arrayWin) {
                 if ($winner === ""){
                     $winner = "Player 1 Wins!";
                 }
             }
         }
         foreach ($oWin as $arrayWin) {
-            if (array_intersect_assoc($GET, $arrayWin) == $arrayWin) {
+            if (array_intersect_assoc($boardStatus, $arrayWin) == $arrayWin) {
                 if ($winner === ""){
                     $winner = "Player 2 Wins!";
                 }
