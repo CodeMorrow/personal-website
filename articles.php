@@ -9,6 +9,10 @@
 		<ul class="articlelist">
 			<li><a href="articles/8_Characteristics_of_User_Interface.php" target="_blank">8 Characteristics Of Successful User Interfaces</a></li>
 		</ul>
+
+		<ul class="articlelist">
+			<li><a href="articles/definitions.php" target="_blank">Coding Definitions</a></li>
+		</ul>
 	</div>
 
 <?php include 'includes/_bottom.php'; ?>

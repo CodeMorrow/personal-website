@@ -260,3 +260,21 @@ label#rpslogo2 > input:checked + img {
 .ticTacToe__winner{
 	font-size: 64px;
 }
+
+/* ------------------------------------ article CSS ---------------------- */
+
+#eight {
+	display: flex;
+	margin:25px;
+}
+
+.definition {
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.define {
+	font-size: 14px;
+
+}	
+}
