@@ -8,6 +8,7 @@
 
 <p><?php echo turnStatus($_GET);?></p>
 
+<div class="ticTacToe__winner"><?php echo checkWin($boardStatus,$xWin,$oWin,$winner); ?></div>
 <br>
 <!-- Tic Tac Toe Board --> 
 <div class="board ticTacToe">
@@ -38,14 +39,8 @@
 	</div>
 </div>
 
-
 <br>
 
-<div class="ticTacToe__winner"><?php echo checkWin($boardStatus,$xWin,$oWin,$winner); ?></div>
-
 <div><a href="index.php">Play Again?</a></div>
-
-
-
 
 <?php include ($directory . 'includes/_bottom.php');?>

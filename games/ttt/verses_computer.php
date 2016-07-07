@@ -1,22 +1,14 @@
 <?php $thisPage = "Tic-Tac-Toe";?>
 <?php $directory = "../../"; ?>
-
 <?php include ($directory . 'includes/_top.php');?>
-<?php include ('ttt_computer_function.php');?>
-
+<?php include "ttt_computer_function.php";?>
 <br>
 
-<h3 class="ticTacToe__title">Player vs. Computer</h3>
+<h3 class="ticTacToe__title">Player (X) vs. Computer (O)</h3>
 
-<p>
-	<?php
-		if(end($_GET)=="X"){
-			echo "Computer's Turn";
-		} else {
-			echo "Player's Turn";
-	}?>
-</p>
+<p><?php echo turnStatus($_GET);?></p>
 
+<div class="ticTacToe__winner"><?php echo checkWin($boardStatus,$xWin,$oWin,$winner); ?></div>
 <br>
 <!-- Tic Tac Toe Board -->
 <div class="board ticTacToe">
@@ -48,8 +40,6 @@
 </div>
 
 <br>
-
-<div class="ticTacToe__winner"><?php echo checkWin($GET,$xWin,$oWin); ?></div>
 
 <div><a href="index.php">Play Again?</a></div>
 
