@@ -2,17 +2,11 @@
 <?php $directory = "../../"; ?>
 <?php include ($directory . 'includes/_top.php');?>
 <?php include "ttt_player_function.php";?>
-
 <br>
 
-<h3 class="ticTacToe__title">Player 1 vs. Player 2</h3>
+<h3 class="ticTacToe__title">Player 1 (X) vs. Player 2 (O)</h3>
 
-<p><?php
-		if(end($_GET)=="X"){
-			echo "Player 2's Turn";
-		} else {
-			echo "Player 1's Turn";
-		}?></p>
+<p><?php echo turnStatus($_GET);?></p>
 
 <br>
 <!-- Tic Tac Toe Board --> 
