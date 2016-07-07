@@ -1,4 +1,6 @@
 <?php
+$winner="";
+$boardStatus = $_GET;
 
     $xTurn = array (
         0=>"&0=X", 1=>"&1=X", 2=>"&2=X", 3=>"&3=X", 4=>"&4=X", 5=>"&5=X", 6=>"&6=X", 7=>"&7=X", 8=>"&8=X");
@@ -28,12 +30,11 @@
             array(2=>"O", 4=>"O", 6=>"O")
         );
     
-    if(end($_GET) == "X") {
-        $turn = $oTurn;
-    } else{
-        $turn = $xTurn;
-    }
-    
+        if(end($boardStatus) == "X") {
+            $turn = $oTurn;
+        } else{
+            $turn = $xTurn;
+        }
 
     function turnStatus($lastTurn) {
         if(end($lastTurn)=="X"){
@@ -43,9 +44,7 @@
         }
     }
 
-    function checkWin($boardStatus, $xWin, $oWin) {
-        $boardStatus = $_GET;
-        $winner= "";
+    function checkWin($boardStatus, $xWin, $oWin, $winner) {
         foreach ($xWin as $arrayWin) {
             if (array_intersect_assoc($boardStatus, $arrayWin) == $arrayWin) {
                 if ($winner === ""){

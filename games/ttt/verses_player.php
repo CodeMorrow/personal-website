@@ -41,7 +41,7 @@
 
 <br>
 
-<div class="ticTacToe__winner"><?php echo checkWin($GET,$xWin,$oWin); ?></div>
+<div class="ticTacToe__winner"><?php echo checkWin($boardStatus,$xWin,$oWin,$winner); ?></div>
 
 <div><a href="index.php">Play Again?</a></div>
 
