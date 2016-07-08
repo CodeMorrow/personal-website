@@ -77,6 +77,12 @@
 	font-family: 'Droid Sans', sans-serif;
 }
 
+.box {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
 /* --------------------------- Picture of me ------------------ */
  .me{
  	border: solid 2px black;
@@ -175,10 +181,14 @@ label#rpslogo2 > input:checked + img {
 
 .rpsbutton {
 	font-size: xx-large;
-	margin-left: 151px
 }
 
 /* ------------------------------------ TTT CSS ---------------------- */
+#number_of_players {
+	display: flex;
+    flex-direction: column;
+    align-content: center;
+}
 #ttt{
 	border-radius: 8px;
 }
@@ -286,4 +296,3 @@ label#rpslogo2 > input:checked + img {
 	font-size: 14px;
 
 }	
-}
