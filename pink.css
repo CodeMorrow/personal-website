@@ -7,7 +7,7 @@
 /* --------------------  CSS for header  --------------------------- */
 
 .header {
-	background-color: #003399;
+	background-color: #FE21AD;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -34,7 +34,7 @@
 .nav_tab {
 	cursor: pointer;
     padding: 5px 30px;
-    color: #003399;
+    color: #FE21AD;
     font-size: 18px;
     font-family: 'Monda', sans-serif;
 }
@@ -50,7 +50,7 @@
 }
 
 .nav a:visited {
-	color: #003399;
+	color: #FE21AD;
 }
 
 .nav a:hover {
@@ -90,13 +90,13 @@
  	box-shadow: 0px 0px 5px 2px black;
  }
 
-/* ---------------------------- Content of each page ----------- */
+/* ---------------------------- Articles CSS ----------- */
  .content {
  	justify-content: center;
  	max-width: 60vh;
  }
  
- #newspaper {
+ .newspaper {
  	margin-left: 32px;
  	width: 250px;
  	border: solid 2px black;
@@ -104,19 +104,27 @@
  	box-shadow: 0px 0px 5px 2px black;
  }
 
- #gameList{
+ .articleList a:visited {
+	color: #FE21AD;
+}
+
+.articleList a:hover {
+	color: #00b36b;
+}
+/* ---------------------------- Games CSS ----------- */
+ .gameList{
  	cursor: pointer;
     padding: 5px 30px;
-    color: #003399;
+    color: #FE21AD;
     list-style: none;
     width: 150px;
 }
 
-#gameList a:visited {
-	color: #003399;
+.gameList a:visited {
+	color: #FE21AD;
 }
 
-#gameList a:hover {
+.gameList a:hover {
 	color: #00b36b;
 }
  /*-------------------------- Footer CSS -----------------*/
@@ -294,5 +302,4 @@ label#rpslogo2 > input:checked + img {
 
 .define {
 	font-size: 14px;
-
-}	
+}

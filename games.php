@@ -4,7 +4,7 @@
 	
 	<h3>Let's Play a Game!</h3>
 
-	<ul id="gameList">
+	<ul class="gameList">
 		<li> <a href="games/rps/index.php">Rock, Paper, Scissors</a>
 	<br>
 	<br>
