@@ -7,8 +7,8 @@
 
 		<h3>Please select how many players will play.</h3>
 				
-				<input class="rpsbutton" type="button" name="verses" value="1 PLAYER" onclick="document.location.href='verses_computer.php'">
-			<br>
+				<!-- <input class="rpsbutton" type="button" name="verses" value="1 PLAYER" onclick="document.location.href='verses_computer.php'">
+			<br> -->
 			<br>
 				<input class="rpsbutton" type="button" name="verses" value="2 PLAYERS" onclick="document.location.href='verses_player.php'">
 				

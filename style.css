@@ -91,6 +91,7 @@
  }
  
  #newspaper {
+ 	margin-left: 32px;
  	width: 250px;
  	border: solid 2px black;
  	border-radius: 50%;
@@ -174,9 +175,13 @@ label#rpslogo2 > input:checked + img {
 
 .rpsbutton {
 	font-size: xx-large;
+	margin-left: 151px
 }
 
 /* ------------------------------------ TTT CSS ---------------------- */
+#ttt{
+	border-radius: 8px;
+}
 .ticTacToe__title{
 	font-size: 32px;
 	margin: 5px;
@@ -259,6 +264,10 @@ label#rpslogo2 > input:checked + img {
 
 .ticTacToe__winner{
 	font-size: 64px;
+}
+
+.playAgainButton {
+	font-size: xx-large;
 }
 
 /* ------------------------------------ article CSS ---------------------- */

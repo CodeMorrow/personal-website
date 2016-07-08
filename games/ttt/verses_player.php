@@ -41,6 +41,8 @@
 
 <br>
 
-<div><a href="index.php">Play Again?</a></div>
+
+
+<input class="playAgainButton" type="button" name="Play Again" value="Play Again?" onclick="document.location.href='verses_player.php'">
 
 <?php include ($directory . 'includes/_bottom.php');?>
