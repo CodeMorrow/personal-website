@@ -93,7 +93,7 @@
 /* ---------------------------- Articles CSS ----------- */
  .content {
  	justify-content: center;
- 	max-width: 60vh;
+ 	max-width: 120vh;
  }
  
  .newspaper {
@@ -302,5 +302,8 @@ label#rpslogo2 > input:checked + img {
 
 .define {
 	font-size: 14px;
+}
 
+.cssImage {
+	width: 120vh;
 }	
