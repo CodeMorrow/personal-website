@@ -63,7 +63,10 @@
 	display: flex;
     min-height: 100vh;
     flex-direction: column;
-	background-color: lightgray; 
+	background-color: lightgray;
+	background-image: url("images/skyline.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
 	order:2;
 	flex-direction: column;
 }

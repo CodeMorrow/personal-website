@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="icon" href="<?php echo "$directory";?>images/favicon.ico">
+	<link rel="icon" href="<?php echo "$directory";?>images/JM-Logo-Square-Teal.png">
 	<?php
 		if($_GET["style"]=="pink"){
 			echo '<link rel="stylesheet" type="text/css" href= ';?><?php echo "$directory";?><?php echo 'pink.css>';
@@ -22,6 +22,6 @@
 			echo "$thisPage";?></h1>
 	</header>
 
-	<?php include ($directory .'includes/_nav.php');?>
+	<!-- <?php include ($directory .'includes/_nav.php');?> -->
 
 <div id=flexbox1>
