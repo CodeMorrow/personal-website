@@ -1,8 +1,6 @@
 <?php $thisPage = "Welcome to My Website"; ?>
 
 <?php include 'includes/_top.php';?>
-
-<?php include 'includes/_nav.php';?>
 	
 	<br>
 	<div class="content">

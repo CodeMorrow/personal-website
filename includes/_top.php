@@ -22,6 +22,6 @@
 			echo "$thisPage";?></h1>
 	</header>
 
-	<!-- <?php include ($directory .'includes/_nav.php');?> -->
+	<?php include ($directory .'includes/_nav.php');?>
 
 <div id=flexbox1>

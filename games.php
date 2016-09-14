@@ -1,8 +1,6 @@
 <?php $thisPage = "Games"; ?>
 
 <?php include 'includes/_top.php'; ?>
-
-<?php include 'includes/_nav.php';?>
 	
 	<h3>Let's Play a Game!</h3>
 
