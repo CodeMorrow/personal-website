@@ -9,7 +9,7 @@
 		<p class="define">A Client is a piece of computer hardware or software that accesses a service made available by a server. The Client usually accesses this service by way of a network. Examples of Clients include cell phones, laptop and any other device that accesses the server. </p>
 
 	<h3 class="definition">HTTP</h3>
-		<p class="define">HTTTP stands for HyperText Transfer Protocol. It is the underlying protocol used by the World Wide Web. HTTP defines how messages are formatted and transmitted, and what actions Web servers and browsers should take in response to various commands. For example, when you enter a URL in your browser, this actually sends an HTTP command to the Web server directing it to fetch and transmit the requested Web page.</p><br>
+		<p class="define">HTTP stands for HyperText Transfer Protocol. It is the underlying protocol used by the World Wide Web. HTTP defines how messages are formatted and transmitted, and what actions Web servers and browsers should take in response to various commands. For example, when you enter a URL in your browser, this actually sends an HTTP command to the Web server directing it to fetch and transmit the requested Web page.</p><br>
 		<p class="define">HTTP is called a stateless protocol because each command is executed independently, without any knowledge of the commands that came before it. This is the main reason that it is difficult to implement Web sites that react intelligently to user input. This shortcoming of HTTP is being addressed in a number of new technologies, including ActiveX, Java, JavaScript and cookies.</p>
 
 	<h3 class="definition">Pre-Processor</h3>
