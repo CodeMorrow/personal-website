@@ -1,6 +1,6 @@
 <?php $thisPage = "Tic-Tac-Toe";?>
 <?php $directory = "../../"; ?>
-<?php include ($directory . 'includes/_top.php');?>
+<?php include ($directory . 'includes/_gameTop.php');?>
 <?php include "ttt_player_function.php";?>
 <br>
 

@@ -1,7 +1,7 @@
 <?php $thisPage = "Tic-Tac-Toe";?>
 <?php $directory = "../../"; ?>
 
-<?php include ($directory . 'includes/_top.php');?>
+<?php include ($directory . 'includes/_gameTop.php');?>
 	
 	<form class="number_of_players">
 

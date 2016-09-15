@@ -1,7 +1,7 @@
 <?php $thisPage = "Rock Paper Scissors";?>
 <?php $directory = "../../"; ?>
 
-<?php include ($directory . 'includes/_top.php');?>
+<?php include ($directory . 'includes/_gameTop.php');?>
 
 	<div class="box">
 
