@@ -4,7 +4,7 @@
 	
 	<br>
 	<div class="content">
-		<p>Thank you for visiting my webiste. This is my project for Omaha Code School. I will be posting Articles about tech and my project journals. There are also links to each of my Projects. Please feel free to take some time to browse the site. If you have any comments please send me an E-mail by clicking the E-mail link at the bottom of the page. Again Welcome!!</p>
+		<p>Thank you for visiting my webiste. I will be posting Articles about tech and my project journals. There are also links to each of my Projects. Please feel free to take some time to browse the site. If you have any comments please send me an e-mail by clicking the e-mail link at the bottom of the page. Again, welcome!!</p>
 	</div>
 	<br>
 	
