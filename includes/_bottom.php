@@ -38,7 +38,7 @@
 		<!-- Logo Link to home page -->
 		<div>
 			<a href="<?php echo "$directory";?>index.php">
-				<img src="images/JM-Logo-Square-Teal.jpg" alt="John's logo">
+				<img src="<?php echo "$directory";?>images/JM-Logo-Square-Teal.jpg" alt="John's logo">
 			</a>
 		</div>
     </footer>
