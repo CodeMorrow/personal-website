@@ -2,7 +2,7 @@
 <html>
 <head>
 	<link rel="icon" href="<?php echo "$directory";?>images/JM-Logo-Square-Teal.png">
-	<link rel="stylesheet" type="text/css" href="<?php echo "$directory";?> style.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo "$directory";?>style.css">
 	<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
 	<title><?php if ($thisPage!=="")
 		echo "$thisPage";?></title>
