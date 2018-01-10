@@ -2,13 +2,7 @@
 <html>
 <head>
 	<link rel="icon" href="<?php echo "$directory";?>images/JM-Logo-Square-Teal.png">
-	<?php
-		if($_GET["style"]=="pink"){
-			echo '<link rel="stylesheet" type="text/css" href= ';?><?php echo "$directory";?><?php echo 'pink.css>';
-		} else {
-			echo '<link rel="stylesheet" type="text/css" href= ';?><?php echo "$directory";?><?php echo 'normal.css>';
-		}
-	?>
+	<link rel="stylesheet" type="text/css" href="<?php echo "$directory";?> style.css">
 	<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
 	<title><?php if ($thisPage!=="")
 		echo "$thisPage";?></title>
